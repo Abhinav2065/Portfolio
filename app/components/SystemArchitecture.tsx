@@ -20,11 +20,11 @@ export default function SystemArchitecture() {
 								'Conducted Arduino Workshop.',
 								'Conducted a C-programming competative programming contest with 50+ students',
 								'Helped in organization of annual science fest with around 1k visiters',
-								'Collaborated and helped in multiple projects with students',
+								'Collaburated and helped in multiple projects with students',
 							],
 							tech: ['C', 'Python', 'Arduino', 'C++'],
 						},
-						{
+												{
 							title: 'STEM Club President - Deerwalk Sifal School',
 							description: 'Working as the President in my high school.',
 							details: [
@@ -44,11 +44,13 @@ export default function SystemArchitecture() {
 								'Working on Conducting Biggest High School Hackathon in Nepal.',
 								'Hoping to each 1000+ studnets by the end of the year.',
 							],
+							tech: [],
+						},
 					].map((project, index) => (
 						<motion.div
 							key={index}
 							initial={{ opacity: 0, y: 20 }}
-
+							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
 							transition={{ delay: index * 0.2 }}
 							className="bg-gray-900/50 rounded-xl p-6 backdrop-blur-sm border border-gray-800"
