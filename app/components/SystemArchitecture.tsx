@@ -19,7 +19,7 @@ export default function SystemArchitecture() {
 								'Conducted Arduino Workshop.',
 								'Conducted a C-programming competative programming contest with 50+ students',
 								'Helped in organization of annual science fest with around 1k visiters',
-								'Collaburated and helped in multiple projects with students',
+								'Collaborated and helped in multiple projects with students',
 							],
 							tech: ['C', 'Python', 'Arduino', 'C++'],
 						},
