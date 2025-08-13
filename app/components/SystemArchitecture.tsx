@@ -35,17 +35,15 @@ export default function SystemArchitecture() {
 							],
 							tech: [],
 						},
-			{
+						{
 							title: 'Founder, Executive Director - Learn Robo Nepal',
-							description: 'I am running a non-profit that I founded..',
+							description: 'I am running a non-profit that I founded.',
 							details: [
 								'Organized STEM trainings in high schools.',
 								'Effectively Planed and Managed Programs.',
 								'Working on Conducting Biggest High School Hackathon in Nepal.',
 								'Hoping to each 1000+ studnets by the end of the year.',
 							],
-							tech: [],
-						},
 					].map((project, index) => (
 						<motion.div
 							key={index}
