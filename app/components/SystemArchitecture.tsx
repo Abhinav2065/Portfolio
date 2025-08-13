@@ -14,8 +14,9 @@ export default function SystemArchitecture() {
 					{[
 						{
 							title: 'STEM Instructor',
-							description: 'Taught 40+ high school students in the field of STEM.',
+							description: 'Taught 100+ high school students in the field of STEM.',
 							details: [
+								'Conducted Python Workshop.',
 								'Conducted Arduino Workshop.',
 								'Conducted a C-programming competative programming contest with 50+ students',
 								'Helped in organization of annual science fest with around 1k visiters',
@@ -24,8 +25,8 @@ export default function SystemArchitecture() {
 							tech: ['C', 'Python', 'Arduino', 'C++'],
 						},
 						{
-							title: 'STEM club vice president - Deerwalk Sifal School',
-							description: 'Worked as the Vice President in my high school.',
+							title: 'STEM Club President - Deerwalk Sifal School',
+							description: 'Working as the President in my high school.',
 							details: [
 								'Co-rorganized high school event on science day.',
 								'Built multiple projects for different high school events.',
@@ -34,11 +35,22 @@ export default function SystemArchitecture() {
 							],
 							tech: [],
 						},
+			{
+							title: 'Founder, Executive Director - Learn Robo Nepal',
+							description: 'I am running a non-profit that I founded..',
+							details: [
+								'Organized STEM trainings in high schools.',
+								'Effectively Planed and Managed Programs.',
+								'Working on Conducting Biggest High School Hackathon in Nepal.',
+								'Hoping to each 1000+ studnets by the end of the year.',
+							],
+							tech: [],
+						},
 					].map((project, index) => (
 						<motion.div
 							key={index}
 							initial={{ opacity: 0, y: 20 }}
-							whileInView={{ opacity: 1, y: 0 }}
+
 							viewport={{ once: true }}
 							transition={{ delay: index * 0.2 }}
 							className="bg-gray-900/50 rounded-xl p-6 backdrop-blur-sm border border-gray-800"
