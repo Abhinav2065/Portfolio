@@ -38,13 +38,6 @@ export const metadata: Metadata = {
 		description: 'I am a passionate high schooler in Nepal intrested in the field of STEM.',
 		url: 'https://abhinavsiluwal.com.np',
 		siteName: 'Abhinav Siluwal - Building Stuff',
-		images: [
-			{
-				url: '/og-image.jpg',
-				width: 1200,
-				height: 630,
-				alt: 'Abhinav Siluwal - Building Stuff',
-			},
 		],
 		locale: 'en_US',
 		type: 'website',
